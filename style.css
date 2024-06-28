@@ -1,0 +1,125 @@
+.quadrado {
+    width: 200px;
+    /* largura  */
+    height: 200px;
+    /* altura */
+    font-size: 150px;
+    background-color: blue;
+    /* cor de fundo */
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.painel {
+    width: 1000px;
+    /* largura da div */
+    border: 1px solid black;
+    margin: auto;
+    /* centralizar */
+    text-align: center;
+    padding: 40px;
+    /* espaçamento interno */
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.445);
+    box-shadow: 5px 3px 5px 5px  white;
+    animation: animar infinite alternate;
+    animation-duration: 4s;
+    display: flex;
+}
+
+    
+
+
+.jogo {
+    margin: auto;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 5px 3px 5px  white;
+
+}
+
+button:hover {
+    background-color: brown;
+    transition: 0.5s;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imgs/ball\ z.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+}
+
+#q1 {
+    background-color: rgb(255, 136, 0);
+}
+
+#q2 {
+    background-color: rgb(4, 1, 218);
+}
+
+#q3 {
+    background-color: rgb(255, 174, 0);
+}
+
+#q4 {
+    background-color: rgb(0, 36, 240);
+}
+
+#q5 {
+    background-color: rgb(255, 145, 0);
+}
+
+#q6 {
+    background-color: rgb(4, 0, 255)
+}
+
+#q7 {
+    background-color: rgb(226, 156, 3);
+
+}
+
+#q8 {
+    background-color: rgb(25, 0, 255);
+}
+
+#q9 {
+    background-color: rgb(248, 170, 0);
+}
+#jogadores{
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 5px 5px 3px black;
+}
+.direita{
+    margin: auto;
+    margin-top: 0;
+}
+#nome{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+#lista{
+    color: aliceblue;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    background-color: black(0,0,0);
+    border-radius: 15px;
+}
